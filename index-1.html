@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#102a43">
+<meta name="description" content="Mohammed Hosam — Data Entry Specialist portfolio, Excel data cleaning, record organization, and quality checks.">
+<title>Mohammed Hosam | Data Entry Portfolio</title>
+<style>
+:root{--bg:#f5f8fc;--surface:#fff;--ink:#102a43;--muted:#526579;--line:#dce5ef;--accent:#087e8b;--accent2:#d8f3f0;--shadow:0 16px 40px rgba(16,42,67,.08)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:inherit}button{font:inherit}.wrap{width:min(1100px,92%);margin:auto}.topbar{position:sticky;top:0;z-index:5;background:rgba(245,248,252,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:72px}.brand{font-weight:800;letter-spacing:-.03em}.brand span{color:var(--accent)}nav{display:flex;gap:22px;align-items:center}nav a{text-decoration:none;color:var(--muted);font-size:.94rem}nav a:hover{color:var(--accent)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 17px;border:1px solid transparent;border-radius:12px;text-decoration:none;font-weight:700;cursor:pointer;transition:.2s}
+.btn-primary{background:var(--accent);color:#fff}.btn-primary:hover{filter:brightness(.92);transform:translateY(-1px)}.btn-secondary{background:var(--surface);border-color:var(--line)}.btn-secondary:hover{border-color:var(--accent)}
+.hero{padding:82px 0 60px;background:radial-gradient(ellipse at 85% 5%,#d8f3f0 0,transparent 36%),var(--bg)}
+.hero-grid{display:grid;grid-template-columns:1.4fr .8fr;gap:52px;align-items:center}.eyebrow{display:inline-flex;gap:8px;align-items:center;color:var(--accent);font-weight:800;font-size:.83rem;letter-spacing:.11em;text-transform:uppercase}.dot{width:8px;height:8px;border-radius:50%;background:#18a58d;box-shadow:0 0 0 5px #d8f3f0}
+h1{font-size:clamp(2.5rem,6vw,4.6rem);line-height:1.04;letter-spacing:-.055em;margin:18px 0}.hero h1 span{color:var(--accent)}.lead{font-size:1.13rem;color:var(--muted);max-width:650px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:27px}
+.hero-card{background:var(--surface);border:1px solid var(--line);padding:26px;border-radius:24px;box-shadow:var(--shadow)}.mini-label{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;font-weight:800}.hero-card h2{font-size:1.25rem;margin:10px 0}.checklist{list-style:none;padding:0;margin:20px 0 0}.checklist li{display:flex;gap:10px;margin:12px 0;color:var(--muted)}.check{color:var(--accent);font-weight:900}
+section{padding:66px 0}.section-head{display:flex;justify-content:space-between;gap:25px;align-items:end;margin-bottom:26px}.kicker{font-size:.8rem;color:var(--accent);text-transform:uppercase;letter-spacing:.12em;font-weight:800}.section-head h2{font-size:clamp(1.8rem,4vw,2.6rem);letter-spacing:-.04em;line-height:1.12;margin:8px 0}.section-head p{max-width:520px;color:var(--muted);margin:0}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:0 8px 25px rgba(16,42,67,.035)}.iconbox{width:44px;height:44px;border-radius:13px;background:var(--accent2);display:grid;place-items:center;font-size:1.35rem}.card h3{margin:16px 0 7px}.card p{color:var(--muted);margin:0}
+.project{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:stretch}.project-visual{background:#102a43;border-radius:22px;padding:23px;color:#fff;overflow:hidden;min-height:300px}.sheet-head{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:16px}.sheet-head small{color:#b8cadb}.pill{border-radius:999px;background:#d8f3f0;color:#075c64;padding:5px 10px;font-size:.75rem;font-weight:800;white-space:nowrap}.fake-table{width:100%;border-collapse:collapse;background:#fff;color:#243b53;border-radius:10px;overflow:hidden;font-size:.83rem}.fake-table th,.fake-table td{padding:11px 9px;border-bottom:1px solid #e5edf4;text-align:left}.fake-table th{background:#edf4f8;font-size:.75rem}.fake-table tr:last-child td{border-bottom:0}.flag{color:#9b5b00;background:#fff0ce;border-radius:6px;padding:3px 6px;font-size:.73rem;font-weight:800}
+.project-info h3{font-size:1.6rem;line-height:1.2;margin:12px 0}.project-info p{color:var(--muted)}.tags{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}.tag{font-size:.8rem;padding:6px 10px;border-radius:8px;background:#e9f0f6;color:#344e65;font-weight:700}.project-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.step{border-top:3px solid var(--accent);padding:17px 16px;background:var(--surface);border-radius:0 0 15px 15px}.step b{font-size:.78rem;color:var(--accent);letter-spacing:.08em}.step h3{margin:8px 0}.step p{margin:0;color:var(--muted);font-size:.94rem}
+.skills{display:flex;flex-wrap:wrap;gap:10px}.skill{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:11px 14px;font-weight:700}
+.notice{margin-top:18px;padding:14px 16px;background:#fff7e7;border:1px solid #f2d79b;color:#75551a;border-radius:12px;font-size:.91rem}
+.contact{background:#102a43;color:#fff;border-radius:26px;padding:36px;display:grid;grid-template-columns:1.3fr .7fr;gap:25px;align-items:center}.contact p{color:#c6d4e1}.contact h2{font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.1;margin:8px 0}.contact .btn-secondary{background:transparent;border-color:#5c7489;color:#fff}.contact-details{display:grid;gap:12px}.contact-details a{color:#fff;text-decoration:none;overflow-wrap:anywhere}.contact-details a:hover{color:#82ded4}
+footer{padding:28px 0;color:var(--muted);font-size:.88rem}.footer-row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+#toast{position:fixed;bottom:22px;left:50%;transform:translate(-50%,20px);opacity:0;background:#102a43;color:#fff;padding:11px 16px;border-radius:10px;transition:.25s;pointer-events:none;z-index:10}#toast.show{opacity:1;transform:translate(-50%,0)}
+.theme-btn{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;padding:8px 10px;cursor:pointer}
+body.dark{--bg:#0b1724;--surface:#122438;--ink:#edf5fb;--muted:#a9bdcf;--line:#294055;--accent:#65d5ca;--accent2:#193d43;--shadow:0 16px 40px rgba(0,0,0,.2)}body.dark .topbar{background:rgba(11,23,36,.92)}body.dark .tag{background:#20384d;color:#d7e6f2}body.dark .step{background:var(--surface)}body.dark .notice{background:#3b301b;color:#f5d995;border-color:#665329}body.dark .fake-table{background:#edf4f8;color:#243b53}
+@media(max-width:800px){.hero-grid,.project,.contact{grid-template-columns:1fr}.grid-3{grid-template-columns:1fr 1fr}.process{grid-template-columns:1fr 1fr}.hero{padding-top:54px}nav{gap:12px}nav a{font-size:.85rem}.section-head{display:block}.section-head p{margin-top:10px}}
+@media(max-width:540px){nav a:not(:last-child){display:none}.grid-3,.process{grid-template-columns:1fr}.hero-card{padding:21px}.project-visual{padding:15px}.fake-table th,.fake-table td{padding:8px 5px;font-size:.74rem}.contact{padding:25px}.actions .btn{width:100%}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="wrap nav">
+  <a class="brand" href="#home" style="text-decoration:none">MH<span>.</span></a>
+  <nav aria-label="Main navigation">
+    <a href="#services">Services</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+    <button class="theme-btn" id="themeToggle" type="button" aria-label="Toggle dark mode">◐</button>
+  </nav>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+  <div>
+    <div class="eyebrow"><span class="dot"></span> Data Entry · Excel · Data Quality</div>
+    <h1>Reliable data.<br><span>Clear results.</span></h1>
+    <p class="lead">I’m Mohammed Hosam, an aspiring Data Entry Specialist focused on accurate data entry, organized records, and practical Excel-based data cleaning.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="#projects">Explore my project <span aria-hidden="true">↗</span></a>
+      <a class="btn btn-secondary" href="#contact">Contact me</a>
+    </div>
+  </div>
+  <aside class="hero-card">
+    <div class="mini-label">What I focus on</div>
+    <h2>Accuracy first, then efficiency.</h2>
+    <p style="color:var(--muted);margin:0">A practical approach to keeping records consistent, readable, and easier to check.</p>
+    <ul class="checklist">
+      <li><span class="check">✓</span> Structured spreadsheets</li>
+      <li><span class="check">✓</span> Data cleaning & validation</li>
+      <li><span class="check">✓</span> Missing-value and duplicate checks</li>
+      <li><span class="check">✓</span> Clear issue documentation</li>
+    </ul>
+  </aside>
+</div></section>
+<section id="services"><div class="wrap">
+  <div class="section-head"><div><div class="kicker">Services</div><h2>How I can help</h2></div><p>Organized, consistent data makes everyday work easier to review and maintain.</p></div>
+  <div class="grid-3">
+    <article class="card"><div class="iconbox">⌨️</div><h3>Data Entry</h3><p>Enter and organize records in Excel or Google Sheets with consistent formatting.</p></article>
+    <article class="card"><div class="iconbox">🧹</div><h3>Data Cleaning</h3><p>Identify extra spaces, inconsistent formats, duplicates, and incomplete records.</p></article>
+    <article class="card"><div class="iconbox">☑️</div><h3>Quality Checks</h3><p>Flag unusual values and document issues instead of guessing missing information.</p></article>
+  </div>
+</div></section>
+<section id="projects" style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)"><div class="wrap">
+  <div class="section-head"><div><div class="kicker">Selected work</div><h2>Project showcase</h2></div><p>A sample project demonstrating my workflow in spreadsheet organization and data quality.</p></div>
+  <div class="project">
+    <div class="project-visual">
+      <div class="sheet-head"><div><strong>Order Records</strong><br><small>Excel · Data cleaning workflow</small></div><span class="pill">Practice project</span></div>
+      <table class="fake-table" aria-label="Illustrative sample data">
+        <thead><tr><th>Order ID</th><th>Product</th><th>Qty</th><th>Review</th></tr></thead>
+        <tbody>
+          <tr><td>1001</td><td>Burger</td><td>2</td><td>✓ Ready</td></tr>
+          <tr><td>1002</td><td>Pizza</td><td>1</td><td>✓ Ready</td></tr>
+          <tr><td>1003</td><td>Sandwich</td><td>3</td><td>✓ Ready</td></tr>
+          <tr><td>1004</td><td>Burger</td><td>—</td><td><span class="flag">Check value</span></td></tr>
+        </tbody>
+      </table>
+      <p style="color:#b8cadb;font-size:.8rem;margin:14px 0 0">Illustrative preview — not a live data table.</p>
+    </div>
+    <div class="project-info">
+      <span class="pill">Project 01</span>
+      <h3>Order Records — Data Entry & Cleaning</h3>
+      <p>Worked with a fictional restaurant-order dataset to practice standardizing records, calculating order amounts, and documenting data-quality issues.</p>
+      <div class="tags"><span class="tag">Excel</span><span class="tag">Formatting</span><span class="tag">Validation</span><span class="tag">Quality log</span></div>
+      <ul class="checklist">
+        <li><span class="check">✓</span> Standardized date and text formats</li>
+        <li><span class="check">✓</span> Flagged missing values and possible duplicates</li>
+        <li><span class="check">✓</span> Added an order-amount calculation</li>
+        <li><span class="check">✓</span> Documented issues in a separate log</li>
+      </ul>
+      <div class="project-actions">
+        <a class="btn btn-primary" href="Data_Entry_Practice_Project_Cleaned.xlsx" download>Download Excel sample ↓</a>
+        <button class="btn btn-secondary" id="detailsBtn" type="button">View project notes</button>
+      </div>
+      <div id="projectNotes" hidden class="notice">This is a self-directed practice project using fictional data, not paid client work. Missing values were flagged rather than invented, and potential duplicates were documented for review.</div>
+    </div>
+  </div>
+</div></section>
+<section id="workflow"><div class="wrap">
+  <div class="section-head"><div><div class="kicker">Workflow</div><h2>A careful process</h2></div><p>My goal is to make the spreadsheet easier to use without hiding uncertain or missing information.</p></div>
+  <div class="process">
+    <article class="step"><b>STEP 01</b><h3>Review</h3><p>Understand columns, formats, and expected values.</p></article>
+    <article class="step"><b>STEP 02</b><h3>Clean</h3><p>Standardize formatting and remove avoidable inconsistencies.</p></article>
+    <article class="step"><b>STEP 03</b><h3>Validate</h3><p>Flag missing, unusual, or potentially duplicated records.</p></article>
+    <article class="step"><b>STEP 04</b><h3>Deliver</h3><p>Save a clear workbook and document remaining issues.</p></article>
+  </div>
+</div></section>
+<section id="skills" style="padding-top:10px"><div class="wrap">
+  <div class="section-head"><div><div class="kicker">Toolkit</div><h2>Skills & tools</h2></div><p>Skills presented here reflect the tools and techniques used in my current practice work.</p></div>
+  <div class="skills">
+    <span class="skill">Microsoft Excel</span><span class="skill">Data Entry</span><span class="skill">Data Cleaning</span><span class="skill">Sorting & Filtering</span><span class="skill">Remove Duplicates</span><span class="skill">Text to Columns</span><span class="skill">Data Validation</span><span class="skill">Pivot Tables</span><span class="skill">Lookup Functions</span><span class="skill">Google Sheets</span><span class="skill">Record Organization</span><span class="skill">Quality Checks</span>
+  </div>
+  <p class="notice">This portfolio is a work in progress. I’m continuing to build practical examples and improve my spreadsheet workflow.</p>
+</div></section>
+<section id="contact"><div class="wrap"><div class="contact">
+  <div><div class="kicker" style="color:#82ded4">Let’s connect</div><h2>Need help organizing data?</h2><p>I’m open to entry-level Data Entry opportunities and practical spreadsheet tasks.</p><div class="actions"><a class="btn btn-primary" href="mailto:mohammedhosam610@gmail.com">Email me ↗</a><a class="btn btn-secondary" href="https://wa.me/201025244047" target="_blank" rel="noopener">WhatsApp me ↗</a><button class="btn btn-secondary" id="copyEmail" type="button">Copy email</button></div></div>
+  <div class="contact-details"><div><small style="color:#a9bdcf">EMAIL</small><br><a href="mailto:mohammedhosam610@gmail.com">mohammedhosam610@gmail.com</a></div><div><small style="color:#a9bdcf">PHONE / WHATSAPP</small><br><a href="tel:+201025244047">+20 102 524 4047</a></div><div><small style="color:#a9bdcf">LOCATION</small><br><span>Cairo, Egypt</span></div></div>
+</div></div></section>
+</main>
+<footer><div class="wrap footer-row"><span>© <span id="year"></span> Mohammed Hosam</span><span>Data Entry Portfolio · Built for clarity and accuracy</span></div></footer>
+<div id="toast" role="status" aria-live="polite">Email copied</div>
+<script>
+const $ = (s) => document.querySelector(s);
+$('#year').textContent = new Date().getFullYear();
+$('#themeToggle').addEventListener('click', () => {
+  document.body.classList.toggle('dark');
+  $('#themeToggle').setAttribute('aria-pressed', document.body.classList.contains('dark'));
+});
+$('#detailsBtn').addEventListener('click', () => {
+  const notes = $('#projectNotes');
+  notes.hidden = !notes.hidden;
+  $('#detailsBtn').textContent = notes.hidden ? 'View project notes' : 'Hide project notes';
+});
+$('#copyEmail').addEventListener('click', async () => {
+  const email = 'mohammedhosam610@gmail.com';
+  try {
+    await navigator.clipboard.writeText(email);
+    $('#toast').textContent = 'Email copied to clipboard';
+  } catch (e) {
+    $('#toast').textContent = 'Email: ' + email;
+  }
+  $('#toast').classList.add('show');
+  setTimeout(() => $('#toast').classList.remove('show'), 2300);
+});
+</script>
+</body>
+</html>
